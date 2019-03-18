@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
@@ -42,4 +44,52 @@ body {
 	font-size: 24px;
 	padding: 26px 36px;
 	border-left: 1px solid #ddd;
+}
+
+.caption {
+	height: 868px;
+	background-image: url('https://www.silverlandhotels.com/uploads/cover/2018-06-05-10-31-09-reexpedia-images-sakyo-roofop-swimmingpool-003.jpg');
+	background-position: cover;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	text-align: center;
+	font-family: 'Poppins';
+	color: #92d248;
+}
+
+.caption .title {
+	font-size: 75px;
+	font-weight: 700px;
+	line-height: 100px;
+	letter-spacing: 14px; 
+}
+
+.caption .more {
+	text-align: center;
+	font-family: 'Poppins';
+	font-size:20px;
+	position: absolute;
+	top: 58%;
+	left: 37%;
+}
+
+.caption button {
+	margin: 20px;
+	padding: 20px 26px;
+	border: none;
+	border-radius: 50%;
+	font-size: 24px;
+	color: #000;
+	opacity: 0.3;
+	outline: none;
+	cursor: pointer;
+	transition: 300ms all;
+}
+
+.caption button:hover {
+	opacity: 0.7;
+	background-color: white;
+	box-shadow: 0 3px 10px rgba(0,0,0,.2);
 }
