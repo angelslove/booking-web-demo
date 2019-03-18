@@ -1,0 +1,45 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #ddd;
+}
+
+.header .title {
+	display: flex;
+	align-items: center;
+	border-right: 1px solid #ddd;
+}
+
+.title .logo {
+	width: 40px;
+	height: 40px;
+	padding: 20px 16px;
+}
+
+.title h3 {
+	font-size: 24px;
+	padding-right: 30px;
+}
+
+.header .fa-phone {
+	transform: rotate(-270deg);
+	font-size: 14px;
+}
+
+.header .phone-num {
+	flex-grow: 1;
+	padding-left: 1320px;
+	font-size: 18px;
+}
+
+.header .menu {
+	font-size: 24px;
+	padding: 26px 36px;
+	border-left: 1px solid #ddd;
+}
