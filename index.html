@@ -5,6 +5,8 @@
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -31,6 +33,55 @@
 			<p class="more">We have the perfect accommodation for you.</p>
 		</div>
 		<button><i class="fas fa-chevron-right"></i></button>
+	</div>
+	<div class="search-form-block">
+		<div class="title-block">
+			<h3 class="name">SEARCH YOUR ROOM</h3>
+		</div>
+		<div class="search-form">
+			<form action="">
+				<h3 class="name">SEARCH YOUR ROOM</h3>
+				<ul class="search-form">
+					<li>
+						<label>ARRIVAL DATE</label>
+						<div class="form-input">
+							<input type="date">
+						</div>
+					</li>
+					<li>
+						<label>DEPARTURE DATE</label>
+						<div class="form-input">
+							<input type="date">
+						</div>
+					</li>
+					<li>
+						<label>ADULTS</label>
+						<div class="form-input">
+							<select class="adults-dropdown">
+								<option value="0">Adults</option>
+								<option value="4">1</option>
+								<option value="5">2</option>
+								<option value="6">3</option>
+								<option value="8">4</option>
+							</select>
+						</div>
+					</li>
+					<li>
+						<label>CHILDREN</label>
+						<div class="form-input">
+							<select class="child-dropdown">
+								<option value="0">Children</option>
+								<option value="4">1</option>
+								<option value="5">2</option>
+								<option value="6">3</option>
+								<option value="8">4</option>
+							</select>
+						</div>
+					</li>
+					<button type="submit">CHECK AVAILABILITY</button>
+				</ul>
+			</form>
+		</div>
 	</div>
 </body>
 </html>

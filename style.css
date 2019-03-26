@@ -21,12 +21,13 @@ body {
 .title .logo {
 	width: 40px;
 	height: 40px;
-	padding: 20px 16px;
+	padding: 0 18px;
 }
 
 .title h3 {
 	font-size: 24px;
-	padding-right: 30px;
+	padding: 26px 40px;
+	font-weight: bold;
 }
 
 .header .fa-phone {
@@ -36,7 +37,7 @@ body {
 
 .header .phone-num {
 	flex-grow: 1;
-	padding-left: 1320px;
+	padding-left: 1290px;
 	font-size: 18px;
 }
 
@@ -93,3 +94,73 @@ body {
 	background-color: white;
 	box-shadow: 0 3px 10px rgba(0,0,0,.2);
 }
+
+.search-form-block {
+	width: 1200px;
+	height: 250px;
+	background-color: white;
+	margin-left: 330px;
+	border: none;
+	box-shadow: 0 10px 10px rgba(0,0,0,.1);
+	position: absolute;
+	top: 95%;
+}
+
+.search-form-block .name {
+	font-size: 16px;
+	color: rgba(0,0,0,.7);
+	margin: 16px 40px;
+}
+
+.search-form-block .search-form {
+	margin-top: 40px;
+	padding-bottom: 12px;
+	background-color: white;
+}
+
+form ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.search-form-block label {
+	font-size: 12px;
+	color: #222;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+
+.search-form-block input {
+	padding: 12px 8px;
+	width: 200px;
+	border: none;
+	border-bottom: 2px solid rgba(0,0,0,.15);
+}
+
+.search-form-block select{
+	padding: 16px 8px;
+	width: 180px;
+	border: none;
+	background-color: rgba(0,0,0,.15);
+	font-size: 14px;
+	color: gray;
+}
+
+input:hover, select:hover {
+	border-bottom: 2px solid rgba(0,0,0,.7);
+} 
+
+.search-form-block button {
+	padding: 12px 30px;
+	margin: 28px 36px 0 0;
+	font-size: 14px;
+	color: white;
+	background-image: linear-gradient(to right, #7f82f0, #2f9efc, #00b4f7, #00c5e6, #5ad2d4);
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 10px 27px 0 rgba(154,49,188,.33);
+}
+
