@@ -101,7 +101,7 @@ body {
 	background-color: white;
 	margin-left: 330px;
 	border: none;
-	box-shadow: 0 10px 10px rgba(0,0,0,.1);
+	box-shadow: 0 20px 27px rgba(0,0,0,.05);
 	position: absolute;
 	top: 95%;
 }
@@ -164,3 +164,26 @@ input:hover, select:hover {
 	box-shadow: 0 10px 27px 0 rgba(154,49,188,.33);
 }
 
+.welcome {
+	margin-top: 260px;
+	text-align: center;
+}
+
+.welcome h2 {
+	font-family: poppins,Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #403023;
+}
+
+.welcome .para-wel {
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #444;
+}
+
+.welcome .break-page {
+	text-align: center;
+	margin: 60px 0;
+	color: #ddd;
+}
