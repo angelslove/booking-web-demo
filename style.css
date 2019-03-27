@@ -187,3 +187,40 @@ input:hover, select:hover {
 	margin: 60px 0;
 	color: #ddd;
 }
+
+.container {
+	padding: 0px 20px 50px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #ddd;
+}
+
+.container .box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 80px;
+}
+
+.container .icon {
+	font-size: 50px;
+	color: #7f82f0;
+	padding-right: 40px;
+	opacity: 0.8;
+}
+
+.container .icon:hover {
+	color: #7ff0b5;
+}
+
+.container h6 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.container .info {
+	font-size: 14px;
+	color: #666;
+	line-height: 24px;
+}
