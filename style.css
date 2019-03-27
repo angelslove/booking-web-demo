@@ -76,7 +76,7 @@ body {
 	left: 37%;
 }
 
-.caption button {
+.caption .btn-pre, .btn-next {
 	margin: 20px;
 	padding: 20px 26px;
 	border: none;
@@ -89,7 +89,7 @@ body {
 	transition: 300ms all;
 }
 
-.caption button:hover {
+.caption .btn-pre:hover, .btn-next:hover {
 	opacity: 0.7;
 	background-color: white;
 	box-shadow: 0 3px 10px rgba(0,0,0,.2);
@@ -129,20 +129,20 @@ form ul {
 	font-size: 12px;
 	color: #222;
 	font-weight: bold;
-	line-height: 1;
-	margin-bottom: 10px;
 }
 
 .search-form-block input {
 	padding: 12px 8px;
+	margin-top: 8px;
 	width: 200px;
 	border: none;
 	border-bottom: 2px solid rgba(0,0,0,.15);
 }
 
 .search-form-block select{
-	padding: 16px 8px;
+	padding: 15px 8px;
 	width: 180px;
+	margin-top: 8px;
 	border: none;
 	background-color: rgba(0,0,0,.15);
 	font-size: 14px;
@@ -153,8 +153,8 @@ input:hover, select:hover {
 	border-bottom: 2px solid rgba(0,0,0,.7);
 } 
 
-.search-form-block button {
-	padding: 12px 30px;
+.search-form-block .btn-check {
+	padding: 16px 30px;
 	margin: 28px 36px 0 0;
 	font-size: 14px;
 	color: white;
@@ -162,6 +162,7 @@ input:hover, select:hover {
 	border: none;
 	border-radius: 5px;
 	box-shadow: 0 10px 27px 0 rgba(154,49,188,.33);
+	cursor: pointer;
 }
 
 .welcome {
