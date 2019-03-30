@@ -30,7 +30,7 @@ body {
 	font-weight: bold;
 }
 
-.header .fa-phone {
+.phone-num .fa-phone {
 	transform: rotate(-270deg);
 	font-size: 14px;
 }
@@ -45,6 +45,7 @@ body {
 	font-size: 24px;
 	padding: 26px 36px;
 	border-left: 1px solid #ddd;
+	cursor: pointer;
 }
 
 .caption {
@@ -131,12 +132,13 @@ form ul {
 	font-weight: bold;
 }
 
-.search-form-block input {
+.search-form-block .date-input {
 	padding: 12px 8px;
 	margin-top: 8px;
 	width: 200px;
 	border: none;
 	border-bottom: 2px solid rgba(0,0,0,.15);
+	outline: none;
 }
 
 .search-form-block select{
@@ -147,13 +149,14 @@ form ul {
 	background-color: rgba(0,0,0,.15);
 	font-size: 14px;
 	color: gray;
+	outline: none;
 }
 
-input:hover, select:hover {
+.date-input:hover, select:hover {
 	border-bottom: 2px solid rgba(0,0,0,.7);
 } 
 
-.search-form-block .btn-check {
+.btn-check {
 	padding: 16px 30px;
 	margin: 28px 36px 0 0;
 	font-size: 14px;
@@ -175,6 +178,7 @@ input:hover, select:hover {
     font-size: 30px;
     font-weight: bold;
     color: #403023;
+    text-align: center;
 }
 
 .para-wel {
@@ -197,7 +201,7 @@ input:hover, select:hover {
 	border-bottom: 1px solid #eee;
 }
 
-.container .box {
+.box {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -215,12 +219,12 @@ input:hover, select:hover {
 	color: #7ff0b5;
 }
 
-.container h6 {
+ h6 {
 	font-size: 14px;
 	font-weight: bold;
 }
 
-.container .info {
+.info {
 	font-size: 14px;
 	color: #666;
 	line-height: 24px;
@@ -378,4 +382,78 @@ input:hover, select:hover {
 	font-size: 14px;
 	cursor: pointer;
 	outline: none;
+}
+
+.services {
+	padding: 60px 360px;
+	background-color: rgba(0,0,0, .03);
+}
+
+.services .service-box { 
+	display: flex;
+	align-items: center;
+	margin-top: 60px;
+}
+
+
+.item {
+	display: flex;
+	margin-bottom: 35px;
+}
+
+.item h6 {
+	margin: 0;
+}
+
+.ik {
+	color: #7f82f0;
+	padding-right: 20px;
+	font-size: 20px;
+}
+
+.service-box form {
+	flex-grow: 1;
+	margin-left: 200px;
+}
+
+.input-top {
+	display: flex;
+}
+
+.service-box form input {
+	width: 330px;
+	border: none;
+	outline: none;
+	padding: 25px 8px 8px 8px;
+	border-radius: 4px;
+}
+
+.service-box form .mes {
+	width: 706px;
+	height: 120px;
+	outline: none;
+	border-radius: 4px;
+}
+
+.input-group {
+	position: relative;
+	margin-right: 30px;
+	margin-bottom: 15px;
+}
+
+.service-box form label {
+	padding-left: 10px;
+	padding-top: 10px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 10px;
+	font-weight: bold;
+	opacity: .5;
+}
+
+.service-box form .send {
+	width: 230px;
+	height: 55px;
+	margin-left: 70px;
 }
